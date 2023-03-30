@@ -1,3 +1,3 @@
 [build]
-command = "yarn start:server"
+command = "yarn && ng build --prod && yarn start:server"
 publish = "dist/angular-app"
